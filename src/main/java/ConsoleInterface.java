@@ -49,7 +49,6 @@ public class ConsoleInterface {
             }
             default -> result = false;
         }
-        //TODO remove if result will not be used
         if (!result) {
             System.out.println("Incorrect entered data, try again");
         }
