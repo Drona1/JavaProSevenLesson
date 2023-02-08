@@ -159,7 +159,7 @@ public class ConsoleInterface {
         String productName = checkInputData(String.class, true, true);
         System.out.print("Enter unit name: ");
         String unitName = checkInputData(String.class, true, true);
-        System.out.print("Enter unit price name: ");
+        System.out.print("Enter unit price: ");
         Double unitPrice = checkInputData(Double.class, true, true);
         return new Product[]{new Product(productName, unitName, unitPrice)};
     }
