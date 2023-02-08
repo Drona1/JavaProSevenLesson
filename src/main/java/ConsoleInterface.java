@@ -126,7 +126,6 @@ public class ConsoleInterface {
                 }
                 return null;
             });
-            //TODO remove this if not need in future
         } catch (IllegalArgumentException ex) {
             return false;
         }
@@ -259,7 +258,6 @@ public class ConsoleInterface {
         int number = Integer.parseInt(sc.nextLine());
         T[] result = (T[]) Array.newInstance(table.getClass(), number);
         for (int i = 0; i < result.length; i++) {
-            //TODO change reference generateClient
             Array.set(result, i, getRandomPosition(table));
         }
         return result;
