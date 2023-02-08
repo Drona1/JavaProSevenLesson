@@ -1,4 +1,4 @@
-import Entities.*;
+import entities.*;
 
 import javax.persistence.*;
 import java.lang.reflect.*;
